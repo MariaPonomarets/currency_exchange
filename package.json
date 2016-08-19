@@ -1,0 +1,31 @@
+{
+  "name": "currency",
+  "version": "0.0.1",
+  "description": "test for company",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha || true",
+    "build": "grunt",
+    "watch": "grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:MariaPonomarets/currency_exchange.git"
+  },
+  "author": "Mariia Ponomarets <mariia.ponomarets@gmail.com>",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  }
+}

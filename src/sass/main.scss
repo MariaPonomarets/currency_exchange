@@ -1,0 +1,57 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+    table {
+      width: 100%;
+      border: 1px solid #000;
+      font-size: 18pt;
+      height: 400px;
+
+      select {
+        width: 80%;
+        height: 80%;
+        background-color: transparent;
+        padding-left: 22%;
+        font-size: 16pt;
+        border: none;
+        outline: none;
+      }
+
+      thead {
+        tr {
+          height: 12%;
+
+          td {
+            background-color: grey;
+          }
+        }
+      }
+
+      tr {
+        padding: 3%;
+        height: 10%;
+
+        td {
+          width: 25%;
+          height: 5%;
+          background-color: gainsboro;
+          padding-right: 10px;
+        }
+      }
+
+      .property {
+        text-align: right;
+        background-color: grey;
+      }
+
+      .correlation {
+      }
+    }
+  }
+}
